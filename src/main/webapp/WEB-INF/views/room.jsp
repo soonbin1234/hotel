@@ -6,12 +6,18 @@
 <meta charset="UTF-8">
 <title>객실관리</title>
 </head>
-<style>
+<style>	
+	body{
+		background-image:url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fe0.pxfuel.com%2Fwallpapers%2F852%2F973%2Fdesktop-wallpaper-the-sun-mountains-music-space-star-background-80s-neon-80-s-synth-retrowave-synthwave-new-retro-wave-futuresynth-sintav-retrouve-for-section-%25D1%2580%25D0%25B5%25D0%25BD%25D0%25B4%25D0%25B5%25D1%2580%25D0%25B8%25D0%25BD%25D0%25B3.jpg&type=sc960_832");
+		background-repeat: no-repeat right;
+	    background-size: cover;
+	}
     input,select{
-        font-size: 16px;
+        font-size: 20px;
     }
     table{
         margin: auto;
+        background-color:white;
     }
     .center{
         text-align: center;
@@ -25,8 +31,8 @@
 </style>
 <body>
 	<input type=hidden id=roomid  value="">
-    <h1 class="center">객실관리</h1>
-    <p><a href="/">예약관리 </a>객실관리</p>
+    <h1 class="center" style="color:red">객실관리</h1>
+    <p style="text-align:center; color:gray; font-size:20px"><a href="/">예약관리 </a>객실관리</p>
     <table border="1" style="width: 45%;">
         <tr>
             <td style="width: 50%;">

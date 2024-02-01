@@ -6,9 +6,16 @@
 <meta charset="UTF-8">
 <title>예약관리</title>
 </head>
-<style>
+<style>	
+	body{
+		background-image:url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2Ff5%2F88%2F09%2Ff58809f9602b6b1bdc4fb0926715f77f.jpg&type=sc960_832");
+		
+	}
+	caption {
+		color : blue;
+	}
     input,select{
-        font-size: 16px;
+        font-size: 20px;
     }
     table{
         background-color: white;
@@ -26,9 +33,9 @@
 </style>
 <body>
 <input type=hidden id=hidden value="">
-    <h1 class="center">예약관리</h1>
-    <p>예약관리 <a href="/room">객실관리</a></p>
-    <table border="1" style="width: 90%; height: 600px;" >
+    <h1 class="center" >예약관리</h1>
+    <p style="text-align:center;  color:#d1df4c; font-size:20px">예약관리 <a href="/room">객실관리</a></p>
+    <table border="1" style="width: 90%; height: 700px;" >
         <tr>
             <td style="width: 33%; background-color: beige;" class="top">
                 <table>
@@ -40,11 +47,11 @@
                     <tr>
                         <td>예정인원</td>
                         <td><input type="number" max="20" min="0" id="personnel">명</td>
-                        <td style="text-align: right;"><input type="button" value="찾기" id="btnfind"></td>
+                        <td style="text-align: right;"><input type="button" value="&#128269;" id="btnfind"></td>
                     </tr>
                      <tr>
                         <td colspan="3">
-                            <select size="10" style="width: 100%;" id=room>
+                            <select size="16" style="width: 100%;" id=room>
                             </select>
                         </td>
                      </tr>
@@ -96,12 +103,12 @@
                     </tr>
                 </table>
             </td>
-            <td class="top" style="background-color: darkslategray;">
+            <td class="top" style="background-color: orange;">
             <table>
             	<caption><h3>예약내역</h3></caption>
             	<tr>
                 <td>
-                <select size="10" style="width: 100%;" id=yeyak>
+                <select size="16" style="width: 100%;" id=yeyak>
                 </select>
                 </td>
            		</tr>
